@@ -10,7 +10,7 @@ MELON_LIMIT = 200
 def show_help():
     print("""
     shipping_procedure.py
-      Master Control Program for Automated Melon Order Fulfillment
+    Master Control Program for Automated Melon Order Fulfillment
 
     This program processes orders from an order log file and controls the
     robots used to fulfill the orders.
@@ -33,7 +33,7 @@ def assess_and_pack_orders():
     Distinguishes between melons/squashes."""
 
     # Check to make sure we've been passed an argument on the
-    # command line.  If not, display instructions.
+    # command line. If not, display instructions.
     if len(sys.argv) < 2:
         show_help()
         return
